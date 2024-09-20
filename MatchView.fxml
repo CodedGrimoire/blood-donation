@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="577.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Mcontroller">
+   <children>
+      <Label alignment="CENTER" layoutX="180.0" layoutY="57.0" prefHeight="39.0" prefWidth="201.0" text="Enter the Type of Blood You Seek" />
+      <ChoiceBox fx:id="type" layoutX="206.0" layoutY="111.0" prefWidth="150.0" />
+      <Label alignment="CENTER" layoutX="196.0" layoutY="200.0" prefHeight="39.0" prefWidth="173.0" text="Enter Your Location" />
+      <Button fx:id="okButton" layoutX="234.0" layoutY="448.0" mnemonicParsing="false" onAction="#handleOk" prefHeight="51.0" prefWidth="97.0" text="OK" />
+      <TextField fx:id="LocField" layoutX="208.0" layoutY="250.0" />
+   </children>
+</AnchorPane>
